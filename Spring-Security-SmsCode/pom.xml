@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zipeng</groupId>
-    <artifactId>Spring-Security-Authentication</artifactId>
+    <artifactId>Spring-Security-SmsCode</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Spring-Security-Authentication</name>
-    <description>Spring-Security-Authentication</description>
+    <name>Spring-Security-SmsCode</name>
+    <description>Spring-Security-SmsCode</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -52,6 +52,12 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework.social/spring-social-config -->
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-config</artifactId>
+            <version>1.1.6.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Security-RememberMe" />
+        <module name="Spring-Security-SmsCode" />
+        <module name="Start-Spring-Security" />
+        <module name="Spring-Security-Authentication" />
+        <module name="Spring-Security-ValidateCode" />
+        <module name="Spring-Security-Authentication (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-Security-Authentication (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-Security-Authentication" options="-parameters" />
+      <module name="Spring-Security-RememberMe" options="-parameters" />
+      <module name="Spring-Security-SmsCode" options="-parameters" />
+      <module name="Spring-Security-ValidateCode" options="-parameters" />
+      <module name="Start-Spring-Security" options="-parameters" />
+    </option>
+  </component>
+</project>

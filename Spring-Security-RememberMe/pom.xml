@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zipeng</groupId>
-    <artifactId>Spring-Security-Authentication</artifactId>
+    <artifactId>Spring-Security-RememberMe</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Spring-Security-Authentication</name>
-    <description>Spring-Security-Authentication</description>
+    <name>Spring-Security-RememberMe</name>
+    <description>Spring-Security-RememberMe</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -50,6 +50,22 @@
             <artifactId>testng</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.social/spring-social-config -->
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-config</artifactId>
+            <version>1.1.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
     </dependencies>
