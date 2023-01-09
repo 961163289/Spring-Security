@@ -3,7 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Spring-Security-Authentication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-Authentication/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Security-Logout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Security-Permission/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-RememberMe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Security-SessionManager/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-SmsCode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-ValidateCode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-ValidateCode/src/main/resources" charset="UTF-8" />

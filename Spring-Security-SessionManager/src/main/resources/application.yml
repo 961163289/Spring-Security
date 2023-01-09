@@ -1,0 +1,12 @@
+security:
+  basic:
+    enabled: true
+spring:
+  main:
+    allow-circular-references: true
+  session:
+    store-type: redis
+server:
+  reactive:
+    session:
+      timeout: 3600

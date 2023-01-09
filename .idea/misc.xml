@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/Spring-Security-ValidateCode/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-RememberMe/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-SmsCode/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security-SessionManager/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security-Logout/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security-Permission/pom.xml" />
       </list>
     </option>
   </component>
